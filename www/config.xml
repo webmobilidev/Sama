@@ -13,7 +13,7 @@ Con la gallery guarda il prodotto d'arredo da te selezionato nei minimi dettagli
     </author>
     
 	
-	<gap:plugin name="org.apache.cordova.device" />
+	
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin"/>	
@@ -49,7 +49,7 @@ Con la gallery guarda il prodotto d'arredo da te selezionato nei minimi dettagli
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
-    <preference name='phonegap-version' value="cli-5.2.0"/>
+    <preference name='phonegap-version' value="cli-6.0.0"/>
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
 		<true/>
 	</gap:config-file>
